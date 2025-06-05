@@ -1,6 +1,6 @@
-# PIV Simple Pass — MATLAB Live Script
+# PIV Simple Pass
 
-[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=lucapiombo/PIV-Simple-Pass)
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=lucapiombo/PIV-SimplePass)
 
 This repository contains a **MATLAB Live Script** that demonstrates the implementation and workflow of a **Simple Pass Particle Image Velocimetry (PIV)** algorithm. The script is designed to be both instructional and practical, guiding the user through each step of the PIV process from raw image input to final velocity field visualization.
 
@@ -55,3 +55,8 @@ The `PIV_algorithm.mlx` script walks through the following stages:
    ```bash
    git clone https://github.com/yourusername/PIV-SimplePass.git
 2. Open `PIV_algorithm.mlx` and enjoy
+
+---
+
+Developed by Luca Piomboni
+Feel free to open issues or contribute improvements!
