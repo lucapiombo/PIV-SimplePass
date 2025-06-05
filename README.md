@@ -53,7 +53,7 @@ The `PIV_algorithm.mlx` script walks through the following stages:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/PIV-SimplePass.git
+   git clone https://github.com/lucapiombo/PIV-SimplePas
 2. Open `PIV_algorithm.mlx` and enjoy
 
 ---
