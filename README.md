@@ -40,6 +40,11 @@ The `PIV_algorithm.mlx` script walks through the following stages:
 7. **Visualization**  
    Displays the computed velocity field (and optionally vorticity) as vector plots.
 
+Below an example of the a potential output image:
+
+![comparison image](util/example.png)
+
+
 ---
 
 ## ⚙️ Requirements
