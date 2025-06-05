@@ -44,6 +44,7 @@ Below an example of the a potential output image:
 
 ![comparison image](util/example.png)
 
+---
 
 ## ⚙️ Requirements
 
