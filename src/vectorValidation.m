@@ -1,4 +1,24 @@
 function [allU, allV, dU_dx, dV_dy] = vectorValidation(U_filtered, V_filtered)
+    % vectorValidation - Post-processes a PIV velocity field to remove spurious vectors.
+    %
+    % Syntax:
+    %   [allU, allV, dU_dx, dV_dy] = vectorValidation(U_filtered, V_filtered)
+    %
+    % Inputs:
+    %   U_filtered - 2D matrix of x-component velocity (pre-filtered)
+    %   V_filtered - 2D matrix of y-component velocity (pre-filtered)
+    %
+    % Outputs:
+    %   allU      - Cleaned x-component velocity field
+    %   allV      - Cleaned y-component velocity field
+    %   dU_dx     - Gradient of U in the x-direction
+    %   dV_dy     - Gradient of V in the y-direction
+    %
+    % Description:
+    %   This function performs post-processing validation of PIV results by:
+    %   1. Removing vectors with high velocity gradients (possible spurious vectors).
+    %   2. Eliminating vector outliers based on local displacement magnitude.
+    %   3. Removing velocities above a defined physical threshold.
 
     % Delate high velocity gradients (spurios)
     distances = sqrt(diff(U_filtered,1,2).^2 + diff(V_filtered,1,2).^2);

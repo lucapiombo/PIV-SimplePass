@@ -1,5 +1,22 @@
 function makeMask(name_save)
-    
+    % makeMask - Creates and saves a binary mask by manually selecting regions on a composite image.
+    %
+    % Syntax:
+    %   makeMask(name_save)
+    %
+    % Inputs:
+    %   name_save - Name (string or char) of the output .mat file to store the mask
+    %
+    % Description:
+    %   This function loads two sample images (from Cam1 and Cam2), filters them,
+    %   combines them side-by-side, and allows the user to draw one or more polygons
+    %   to define masked regions. The final mask is optionally saved to a .mat file.
+    %
+    % Requirements:
+    %   - Image filtering function `filter_image`
+    %   - Image reading function `readB16` called by `filter_image`
+    %   - MATLAB Image Processing Toolbox (for impoly, createMask)
+        
     % Import two sample images
     img1 = "12ms\Cam1\Cam1_0001A.b16";
     img2 = "12ms\Cam2\Cam2_0001A.b16";
