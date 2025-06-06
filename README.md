@@ -4,13 +4,11 @@
 
 This repository contains a **MATLAB Live Script** that demonstrates the implementation and workflow of a **Simple Pass Particle Image Velocimetry (PIV)** algorithm. The script is designed to be both instructional and practical, guiding the user through each step of the PIV process from raw image input to final velocity field visualization.
 
----
 
 ## 📖 Purpose
 
 The main objective of this project is to provide a clear, hands-on example of how a basic PIV algorithm works, focusing on single-pass cross-correlation, with real image data and calibration included.
 
----
 
 ## 🧭 What This Script Does
 
@@ -40,10 +38,11 @@ The `PIV_algorithm.mlx` script walks through the following stages:
 7. **Visualization**  
    Displays the computed velocity field (and optionally vorticity) as vector plots.
 
+---
+
 Below an example of the a potential output image:
 
 ![comparison image](util/example.png)
-
 
 ---
 
@@ -52,7 +51,6 @@ Below an example of the a potential output image:
 - MATLAB R2024a or newer
 - **Image Processing Toolbox**
 
----
 
 ## 🚀 Getting Started
 
