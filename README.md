@@ -40,7 +40,7 @@ The `PIV_algorithm.mlx` script walks through the following stages:
 
 ---
 
-Below an example of the a potential output image:
+Below an example of a potential output image:
 
 ![comparison image](util/example.png)
 
