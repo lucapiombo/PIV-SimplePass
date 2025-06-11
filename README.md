@@ -61,5 +61,4 @@ Below an example of a potential output image:
 
 ---
 
-Developed by Luca Piomboni
-Feel free to open issues or contribute improvements!
+Developed by Luca Piomboni, feel free to open issues or contribute improvements!
