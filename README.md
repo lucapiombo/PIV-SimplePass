@@ -61,4 +61,4 @@ Below an example of a potential output image:
 
 ---
 
-Developed by Luca Piomboni under MIT [LICENCE](LICENCE), feel free to open issues or contribute improvements!
+Developed by Luca Piomboni under MIT [LICENSE](LICENSE), feel free to open issues or contribute improvements!
